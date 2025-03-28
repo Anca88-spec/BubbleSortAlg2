@@ -1,9 +1,11 @@
 package org.BubbleSort;
 
+
 public class SalesRepresentative {
     private final String name;
     private final int sales;
     private final double quota;
+
 
     public SalesRepresentative(String name, int sales, double quota) {
         this.name = name;
