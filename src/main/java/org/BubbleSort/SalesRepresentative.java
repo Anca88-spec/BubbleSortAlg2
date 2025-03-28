@@ -13,6 +13,7 @@ public class SalesRepresentative {
         this.quota = quota;
     }
 
+
     public double getRevenue() {
         return sales * quota;
     }
