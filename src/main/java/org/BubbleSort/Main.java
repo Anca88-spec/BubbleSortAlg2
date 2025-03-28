@@ -2,6 +2,7 @@ package org.BubbleSort;
 
 public class Main {
 
+
     public SalesRepresentative[] sort(SalesRepresentative[] representatives) {
         for (int i = 0; i < representatives.length - 1; i++) {
             for (int j = 0; j < representatives.length - 1 - i; j++) {
@@ -12,6 +13,7 @@ public class Main {
                 }
             }
         }
+
         return representatives;
     }
 
